@@ -1,0 +1,76 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "php.validate.enable": true,
+    "php.suggest.basic": false,
+    
+    // Intelephense settings
+    "intelephense.files.maxSize": 5000000,
+    "intelephense.environment.phpVersion": "8.2",
+    "intelephense.format.braces": "k&r",
+    
+    // PHP Debug settings
+    "php.debug.ideKey": "VSCODE",
+    
+    // PHP CS Fixer settings
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.rules": "@PSR12",
+    "php-cs-fixer.config": ".php-cs-fixer.php",
+    
+    // Editor settings
+    "editor.fontSize": 14,
+    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+    "editor.lineHeight": 22,
+    "editor.rulers": [80, 120],
+    "editor.wordWrap": "off",
+    "editor.suggestSelection": "first",
+    "editor.minimap.enabled": true,
+    
+    // Git settings
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "gitlens.codeLens.enabled": true,
+    
+    // Terminal settings
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    
+    // Material Icon Theme settings
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.activeIconPack": "angular",
+    
+    // Error Lens settings
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+        "info"
+    ],
+    "errorLens.messageEnabled": true,
+    
+    // Path Intellisense settings
+    "typescript.suggest.paths": true,
+    
+    // PHP DocBlocker settings
+    "php-docblocker.gap": true,
+    "php-docblocker.useShortNames": false,
+    
+    // PHP Constructor settings
+    "phpConstructor.constructorVisibility": "public",
+    
+    // Workspace settings
+    "files.associations": {
+        "*.php": "php",
+        "*.phtml": "php"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/vendor": true,
+        "**/node_modules": true
+    }
+}
